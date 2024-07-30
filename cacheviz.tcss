@@ -1,0 +1,49 @@
+.grid-holder {
+    layout: grid;
+    grid-size: 2;
+    grid-columns: 40% 60%;
+    grid-rows: 5%;
+}
+
+Rule {
+    column-span: 2;
+    color: white;
+}
+
+#current {
+    width: 100%;
+
+}
+
+#current_res {
+    width: 100%;
+}
+
+#current_res_pending {
+    width: 100%;
+}
+
+#disk_size {
+    width: 100%;
+}
+
+#pending_puts {
+    width: 100%;
+}
+
+#m_tr {
+    width: 100%;
+}
+
+
+#d_tr {
+    width: 100%;
+}
+
+Bar {
+    width: 90%;
+}
+
+Bar > .bar--complete {
+    color: $error;
+}
